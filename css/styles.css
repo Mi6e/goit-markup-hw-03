@@ -63,6 +63,7 @@ a {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .header-link {
   font-weight: 500;
@@ -196,6 +197,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-bottom: 20px;
 }
 .footer-accent {
   color: #ffffff;
@@ -216,6 +218,7 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 .footer-link-mail:hover,
 .footer-link-tel:hover,
@@ -225,7 +228,10 @@ a {
 .footer-link:focus {
   color: var(--color-nav);
 }
-/* Портфолио */
+/*------------------------- Портфолио------------------------------- */
+.prtf-list-btn {
+  padding-bottom: 16px;
+}
 .prtf-btn {
   background: #f5f4fa;
   border-radius: 4px;
