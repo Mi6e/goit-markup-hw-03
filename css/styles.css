@@ -16,6 +16,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 button {
   cursor: pointer;
 }
@@ -31,6 +34,20 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -41,6 +58,11 @@ a {
 }
 .accent {
   color: #2196f3;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-link {
   font-weight: 500;
@@ -71,6 +93,8 @@ a {
 
 .hero {
   background: var(--background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title {
   font-weight: 900;
@@ -80,6 +104,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .btn {
   background: #2196f3;
@@ -95,6 +120,7 @@ a {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
 .info-name {
   font-weight: bold;
   font-size: 14px;
@@ -102,12 +128,17 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .info-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+}
+
+.action {
+  padding-bottom: 94px;
 }
 .action-title {
   font-weight: bold;
@@ -116,6 +147,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 /* Наша команда */
 .team {
@@ -128,6 +160,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+}
+
+.team-name-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -136,6 +174,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
@@ -147,6 +186,8 @@ a {
 /* FOOTER */
 .footer {
   background: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: Raleway;
