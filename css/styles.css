@@ -248,7 +248,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
@@ -320,6 +320,7 @@ a {
 .prtf-item-btn + .prtf-item-btn {
   margin-left: 8px;
 }
+
 .prtf-btn {
   background: #f5f4fa;
   border-radius: 4px;
@@ -332,6 +333,7 @@ a {
   color: #212121;
   padding: 6px 22px;
 }
+
 .prtf-btn:hover,
 .prtf-btn:focus {
   background: #2196f3;
@@ -349,16 +351,18 @@ a {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
 .prtf-item:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
+
 .prtf-title-content {
   padding: 20px 24px;
   background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .prtf-title {
