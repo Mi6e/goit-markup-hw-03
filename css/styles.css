@@ -18,6 +18,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 button {
   cursor: pointer;
@@ -341,7 +343,11 @@ a {
 .prtf-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -30px;
+}
+.prtf-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 
 .prtf-item:nth-child(-n + 6) {
